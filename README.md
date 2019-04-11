@@ -1,2 +1,3 @@
-# Task.Market
-📋 Be rewarded for contributing to the development of the MyBit Network.
+# React-Static - Basic Template
+
+To use this template, run `react-static create` and use the `basic` template.
