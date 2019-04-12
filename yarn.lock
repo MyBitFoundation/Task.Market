@@ -820,10 +820,10 @@
     "@reach/router" "^1.2.1"
     styled-components "^4.2.0"
 
-"@mybit/ui.task-market.header@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@mybit/ui.task-market.header/-/ui.task-market.header-0.0.3.tgz#ed50854f82ff16ae761e77db6067a767fd88d5f8"
-  integrity sha512-kWlfQVK9z4BdB3I3t2VqdV69v4FqRNOS3JRTS/mEbOq8j0njnWSgua6Zb5XhH/nmxhnAgbOrjZ6qKvGI/cQuEg==
+"@mybit/ui.task-market.header@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@mybit/ui.task-market.header/-/ui.task-market.header-0.0.4.tgz#570b21664e776c1562acc97b429c3604f3ce9369"
+  integrity sha512-9f8vryk2siy+NawBjinf0Ew4eYCs3erH/T8K2jlIxIbuTsbntrGeN6Dyqx7wYf7qtBUhN0+o38v1E7Ah3gTpDw==
   dependencies:
     styled-components "^4.2.0"
 
