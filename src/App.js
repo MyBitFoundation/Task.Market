@@ -9,7 +9,7 @@ import Icon from './images/icon-building.svg';
 import './app.css'
 
 const LandingWrapper = styled.div`
-  margin: 128px auto;
+  margin: 64px auto 96px;
 `
 const LandingTagline = styled.p`
   font-family: Gilroy;

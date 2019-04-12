@@ -62,3 +62,9 @@ typings/
 
 # react-static tmp output
 tmp
+dist
+
+# react-static bundle output
+artifacts/client-stats.json
+artifacts/static-app.js
+artifacts/react-static-build-state.json
