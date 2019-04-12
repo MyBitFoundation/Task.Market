@@ -18,10 +18,12 @@
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",
-    "react-static-plugin-source-filesystem": "^7.0.0"
+    "react-static-plugin-source-filesystem": "^7.0.0",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "babel-eslint": "9.x",
+    "babel-plugin-inline-react-svg": "^1.1.0",
     "eslint": "5.x",
     "eslint-config-react-app": "^3.0.8",
     "eslint-config-react-tools": "1.x.x",
