@@ -49,6 +49,37 @@ const LandingIcon = styled(Icon)`
   margin: 0 auto;
 `
 
+const TelegramButton = styled.a`
+  line-height: 2.7;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  color: rgba(0,0,0,0.65);
+  background-color: #fff;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+  font-family: Roboto;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+`
+
 function App() {
   return (
     <Root>
@@ -62,7 +93,14 @@ function App() {
             Bounties.Network that maintains the values and principles of the industry as well as 
             maintains the best interests of the users.
           </LandingParagraph>
-          <LandingTagline>More to come shortly.  Subscribe for updates.</LandingTagline>
+          <LandingTagline>More to come shortly. Join Telegram for updates.</LandingTagline>
+          <TelegramButton
+            href="https://t.me/mybitio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Telegram
+          </TelegramButton>
         </LandingWrapper>
         <div  style={{ maxWidth: 1128, marginTop: 40, margin: 'auto' }}>
           <Footer />
