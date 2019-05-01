@@ -811,10 +811,10 @@
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-"@mybit/ui.footer@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@mybit/ui.footer/-/ui.footer-0.0.4.tgz#6f9c223bca88002e87875606cab61787a02a6378"
-  integrity sha512-DUPj+evUVnlCtn73FbWMmB7yHGBWbpqud6p7VyyvJuD1ydINbocUbLMRBoGAwVgbSJ0EJcEuJ7oSIHWBT+WFjQ==
+"@mybit/ui.footer@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@mybit/ui.footer/-/ui.footer-0.0.6.tgz#d6f8380dbe650696d74d7ab18a2b0046034a9013"
+  integrity sha512-+9opVQNSNsBOVWw3n4LtVIOtf8/fuyZdRRVN1Q2tuAzMU7Boou9gOKz43g82gYHf6xGEM+2/yLbkkqEzjP+1eA==
   dependencies:
     "@mybit/ui.theme-website" "^0.0.3"
     "@reach/router" "^1.2.1"

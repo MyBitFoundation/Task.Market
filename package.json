@@ -12,7 +12,7 @@
     "now-start": "npm run serve"
   },
   "dependencies": {
-    "@mybit/ui.footer": "^0.0.4",
+    "@mybit/ui.footer": "^0.0.6",
     "@mybit/ui.task-market.header": "^0.0.4",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
