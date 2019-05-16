@@ -81,17 +81,17 @@ const TelegramButton = styled.a`
 `
 
 const StyledLink = styled.a`
-  color: #ffffff;
+  color: inherit;
   text-decoration: none;
   background-color: transparent;
   outline: none;
   cursor: pointer;
+  text-decoration: underline;
+  font-weight: inherit;
 
   &:hover{
     text-decoration: none;
-    outline: 0;
-    color: #40a9ff;
-  }
+  };
 `
 
 function App() {
@@ -117,7 +117,14 @@ function App() {
           <LandingIcon />
           <LandingTitle>Opportunity to Create</LandingTitle>
           <LandingParagraph>
-            TPS is an Aragon application which seamlessly integrates into the MyBit DAO. 
+            TPS is an Aragon application which seamlessly integrates into the{' '}
+            <StyledLink
+              href="https://medium.com/mybit-dapp/mybit-dao-tutorial-5b3bc093963b"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MyBit DAO
+            </StyledLink>. 
             They have received nearly $500,000 in funding from the Aragon Foundation to develop their 
             solution. Currently, it is still on testnet, but we have fully tested it and are ready to 
             bring it to the MyBit DAO the second it reaches main-net.
